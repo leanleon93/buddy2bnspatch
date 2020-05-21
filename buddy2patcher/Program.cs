@@ -7,8 +7,13 @@ namespace buddy2patcher
 {
     class Program
     {
+#if DEBUG 
         private static readonly string FolderPath = "..\\..\\..\\files\\addons\\";
         private static readonly string OutputPath = "..\\..\\..\\files\\patches.xml";
+#else
+        private static readonly string FolderPath = "addons\\";
+        private static readonly string OutputPath = "patches.xml";
+#endif
         static void Main(string[] args)
         {
             BuddyAddonHandler buddyAddonHandler = new BuddyAddonHandler(FolderPath);

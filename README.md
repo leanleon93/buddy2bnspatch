@@ -1,7 +1,7 @@
 # buddy2bnspatch
 #### Converts Bns Buddy addons to bnspatch xml format
 
-## Usage
+## Usage (Debug config)
 1. Place your .patch files in the [buddy2bnspatch/buddy2patcher/files/addons/](https://github.com/leanleon93/buddy2bnspatch/tree/master/buddy2patcher/files/addons) directory
 2. Run the Programm.
 3. ...

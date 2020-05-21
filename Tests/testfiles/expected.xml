@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<patches>
+  <patch file="client.config2.xml">
+    <select-node query="//option[@name='action-target-distance']/@value">
+      <set-value value="5.500000" />
+    </select-node>
+    <select-node query="//option[@name='interact-distance']/@value">
+      <set-value value="6.500000" />
+    </select-node>
+  </patch>
+</patches>

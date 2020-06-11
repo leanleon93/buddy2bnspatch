@@ -14,8 +14,9 @@ It will generate the patches.xml next to the .exe
 1. Place your .patch files in the buddy2bnspatch/buddy2patcher/files/addons/ directory
 2. Your patches.xml file will be in the buddy2bnspatch/buddy2patcher/files/ directory
 
-## What it can't do yet
-- It currently ignores addons that include skill modifications (WIP)
+## What it can't do
+- It ignores addons that include skill modifications
+- You can try [this](https://bnsskillrebinderpublic.leanleon93.now.sh/) to create skill patches in the new format tho
 - Optimise/combine nodes
 
 ## Wtf is bnspatch??

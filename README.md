@@ -9,6 +9,7 @@
 
 ## What it can't do yet
 - It currently ignores addons that include skill modifications (WIP)
+- Optimise/combine nodes
 
 ## Wtf is bnspatch??
 Check out the bnspatch project from **zeffy** here [zeffy/bnspatch](https://github.com/zeffy/bnspatch)

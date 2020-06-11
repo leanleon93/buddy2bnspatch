@@ -30,6 +30,9 @@ namespace buddy2patcher
             documentContext.InsertBefore(xmlDeclaration, root);
             XmlElement rootNode = documentContext.CreateElement(string.Empty, "patches", string.Empty);
             documentContext.AppendChild(rootNode);
+            XmlDocumentFragment xfrag = documentContext.CreateDocumentFragment();
+            xfrag.InnerXml = @"<?include .\patches\*.xml?>";
+            rootNode.AppendChild(xfrag);
             foreach (var file in this.ModifiedFiles)
             {
                 var patchNode = GenerateForFile(file);

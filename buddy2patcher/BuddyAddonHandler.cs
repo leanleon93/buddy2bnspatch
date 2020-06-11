@@ -53,7 +53,10 @@ namespace buddy2patcher
 
         private Addon ParseAddon(string fullpath)
         {
-            if (GetModifiedFilename(fullpath).Contains("contextscript")) return null;
+            if (skipSkills)
+            {
+                if (GetModifiedFilename(fullpath).Contains("contextscript")) return null;
+            }
             var addon = new Addon();
             var searchReplacePairs = new List<Tuple<string, string>>();
             var addonLines = File.ReadAllLines(fullpath).ToList();

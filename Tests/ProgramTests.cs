@@ -25,7 +25,7 @@ namespace Tests
             var documentContext = patchHandler.GenerateXMLDocument();
             XmlDiff diff = new XmlDiff
             {
-                Options = XmlDiffOptions.IgnoreWhitespace | XmlDiffOptions.IgnoreComments | XmlDiffOptions.IgnoreXmlDecl
+                Options = XmlDiffOptions.IgnoreWhitespace | XmlDiffOptions.IgnoreComments | XmlDiffOptions.IgnoreXmlDecl | XmlDiffOptions.IgnoreChildOrder
             };
             Assert.IsTrue(diff.Compare(expectedDocument, documentContext));
         }

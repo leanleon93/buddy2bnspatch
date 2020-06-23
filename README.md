@@ -1,5 +1,7 @@
-# buddy2bnspatch
+# [Obsolete]buddy2bnspatch
 #### Converts Bns Buddy addons to bnspatch xml format
+
+## Bnspatch now supports addons without any conversion. 
 
 ## Download
 [Download the latest version here](https://github.com/leanleon93/buddy2bnspatch/releases/latest)
